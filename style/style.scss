@@ -1,0 +1,19 @@
+@import "base";
+@import "variables";
+.menu>li>a { 
+    color: white;
+}
+.home {
+	background-image:url('../images/moutain.png');
+	height: 600px;
+}
+    
+.about {
+	padding-top: 40px;
+	padding-bottom: 80px;
+}
+
+.projects {
+	background-color: lightgrey;
+	padding: 40px
+}

@@ -1,0 +1,25 @@
+h1 {
+  padding-top: 8% !important;
+  color: white !important;
+  text-align: center; }
+
+h2 {
+  color: white !important;
+  text-align: center; }
+
+.menu > li > a {
+  color: white; }
+
+.home {
+  background-image: url("../images/moutain.png");
+  height: 600px; }
+
+.about {
+  padding-top: 40px;
+  padding-bottom: 80px; }
+
+.projects {
+  background-color: lightgrey;
+  padding: 40px; }
+
+/*# sourceMappingURL=style.css.map */
