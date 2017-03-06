@@ -5,15 +5,28 @@
 }
 .home {
 	background-image:url('../images/moutain.png');
-	height: 600px;
+	height: 768px;
+	background-attachment: fixed;
+    
+    background-repeat: no-repeat;
+    
 }
     
 .about {
+	
+	height: 768px;
 	padding-top: 40px;
 	padding-bottom: 80px;
+	
 }
 
 .projects {
-	background-color: lightgrey;
+	height: 768px;
+	background-color: #edeeef;
 	padding: 40px
+}
+
+
+.contact {
+	height: 768px;
 }
