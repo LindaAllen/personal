@@ -14,6 +14,7 @@ h2 {
   background-image: url("../images/moutain.png");
   height: 768px;
   background-attachment: fixed;
+  background-size: cover;
   background-repeat: no-repeat; }
 
 .about {
@@ -47,6 +48,7 @@ h2 {
   background-image: url("../images/cloud.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   height: 250px; }
 
 .contact-header {
@@ -254,6 +256,9 @@ h2 {
     max-width: 75% !important; }
 
   .contact-header {
-    display: none; } }
+    display: none; }
+
+  .icon {
+    padding-top: 25px; } }
 
 /*# sourceMappingURL=style.css.map */
