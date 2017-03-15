@@ -41,7 +41,8 @@ h2 {
   min-height: 768px;
   height: 100vh;
   background-color: #edeeef;
-  padding-top: 70px; }
+  padding-top: 70px;
+  clear: both; }
 
 .contact {
   clear: both;
