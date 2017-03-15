@@ -5,9 +5,9 @@ color: white;
 }
 .home {
 background-image:url('../images/moutain.png');
-height: 768px;
+height: 100vh;
 background-attachment: fixed;
-
+background-size: cover;
 background-repeat: no-repeat;
 
 }
@@ -15,6 +15,7 @@ background-repeat: no-repeat;
 .about {
 
 min-height: 768px;
+height: 100vh;
 padding-top: 40px;
 padding-bottom: 80px;
 
@@ -31,27 +32,31 @@ padding-bottom: 80px;
 	text-align: center;
 }
 
-.tech {
-	font-family: Raleway;
+.tech { 
+	font-family: Raleway; 
 	font-size: 20px;
 	text-align: center;
 }
 
 .projects {
 min-height: 768px;
+height: 100vh;
 background-color: #edeeef;
 padding-top: 70px
 }
 
 
 .contact {
-height: 768px;
+clear: both;
+min-height: 768px;
+height: 100vh;
 }
 
 .contact-img {
 	background-image:url('../images/cloud.png');
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: cover;
 	height: 250px;
 }
 
@@ -255,11 +260,70 @@ height: 768px;
     max-width: 75% !important;
 }
 
-.contact-header {
-    display: none;
+.contact {
+   height: 0px !important;
 	
 }
 
+.icon {
+    padding-top: 25px;
 }
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo-small {
+  float: right; }
+
+.title-bar {
+  padding: 0 .5rem; }
+
+.menu-icon,
+.title-bar-title {
+  position: relative;
+  top: 10px; }
+
+/* Medium-Up Navigation */
+@media only screen and (min-width: 40rem) {
+  .logo-wrapper {
+    position: relative; }
+    .logo-wrapper .logo {
+      width: 118px;
+      height: 92px;
+      position: absolute;
+      left: 50%;
+      right: 50%;
+      top: -6px;
+      margin-left: -59px; }
+
+  .top-bar-right {
+    width: 50%;
+    padding-left: 86px; }
+    .top-bar-right ul {
+      float: left; }
+
+  .top-bar-left {
+    width: 50%;
+    padding-right: 86px; }
+    .top-bar-left ul {
+      float: right; } }
+
+      .top-bar, .top-bar ul {
+    background-color: black !important;
+}
 
