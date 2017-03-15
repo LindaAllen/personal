@@ -264,6 +264,9 @@ h2 {
 
   .icon {
     padding-top: 25px; } }
+@media only screen and (max-width: 1023px) {
+  .projects {
+    height: inherit; } }
 .logo-small {
   float: right; }
 

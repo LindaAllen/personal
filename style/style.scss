@@ -271,6 +271,14 @@ height: 100vh;
 
 }
 
+@media only screen and (max-width: 1023px) {
+    .projects {
+    height: inherit; 
+
+    }
+
+}
+
 
 
 
